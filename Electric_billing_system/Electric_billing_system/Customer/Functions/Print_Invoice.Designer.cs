@@ -40,6 +40,7 @@ namespace Electric_billing_system
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 24);
             this.comboBox1.TabIndex = 0;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // crystalReportViewer1
             // 
@@ -48,7 +49,7 @@ namespace Electric_billing_system
             this.crystalReportViewer1.Cursor = System.Windows.Forms.Cursors.Default;
             this.crystalReportViewer1.Location = new System.Drawing.Point(3, 94);
             this.crystalReportViewer1.Name = "crystalReportViewer1";
-            this.crystalReportViewer1.Size = new System.Drawing.Size(1029, 382);
+            this.crystalReportViewer1.Size = new System.Drawing.Size(1029, 485);
             this.crystalReportViewer1.TabIndex = 1;
             // 
             // Print_Invoice
@@ -62,6 +63,7 @@ namespace Electric_billing_system
             this.Name = "Print_Invoice";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Print_Invoice";
+            this.Load += new System.EventHandler(this.Print_Invoice_Load);
             this.ResumeLayout(false);
 
         }

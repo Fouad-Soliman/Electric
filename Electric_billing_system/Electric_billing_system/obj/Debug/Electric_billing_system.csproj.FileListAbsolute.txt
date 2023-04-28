@@ -8,7 +8,6 @@ C:\Users\Mohamed\source\repos\Electric_billing_system\Electric_billing_system\ob
 C:\Users\Mohamed\source\repos\Electric_billing_system\Electric_billing_system\obj\Debug\Electric_billing_system.pdb
 C:\Users\Mohamed\source\repos\Electric_billing_system\Electric_billing_system\bin\Debug\Oracle.DataAccess.dll
 C:\Users\Mohamed\source\repos\Electric_billing_system\Electric_billing_system\obj\Debug\Electric_billing_system.csproj.CopyComplete
-C:\Users\Mohamed\source\repos\Electric_billing_system\Electric_billing_system\obj\Debug\Electric_billing_system.csproj.AssemblyReference.cache
 C:\Users\Mohamed\source\repos\Electric_billing_system\Electric_billing_system\obj\Debug\Electric_billing_system.Admin_Menu.resources
 C:\Users\Mohamed\source\repos\Electric_billing_system\Electric_billing_system\obj\Debug\Electric_billing_system.Customer_Menu.resources
 C:\Users\Mohamed\source\repos\Electric_billing_system\Electric_billing_system\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
@@ -36,12 +35,13 @@ C:\Users\Mohamed\source\repos\Electric_billing_system\Electric_billing_system\ob
 C:\Users\Mohamed\source\repos\Electric_billing_system\Electric_billing_system\obj\Debug\Electric_billing_system.Welcome_Form.resources
 C:\Users\Mohamed\source\repos\Electric_billing_system\Electric_billing_system\obj\Debug\Electric_billing_system.Login_Form.resources
 C:\Users\Mohamed\source\repos\Electric_billing_system\Electric_billing_system\obj\Debug\Electric_billing_system.registration_form.resources
-C:\Users\Mohamed\source\repos\Electric_billing_system\Electric_billing_system\bin\Debug\AForge.dll
-C:\Users\Mohamed\source\repos\Electric_billing_system\Electric_billing_system\bin\Debug\AForge.Video.DirectShow.dll
-C:\Users\Mohamed\source\repos\Electric_billing_system\Electric_billing_system\bin\Debug\AForge.Video.dll
-C:\Users\Mohamed\source\repos\Electric_billing_system\Electric_billing_system\bin\Debug\DarrenLee.Media.dll
-C:\Users\Mohamed\source\repos\Electric_billing_system\Electric_billing_system\bin\Debug\messageboxmanager.dll
-C:\Users\Mohamed\source\repos\Electric_billing_system\Electric_billing_system\bin\Debug\Siticone.UI.dll
 C:\Users\Mohamed\source\repos\Electric_billing_system\Electric_billing_system\obj\Debug\Electric_billing_system.ApproveBills.resources
 C:\Users\Mohamed\source\repos\Electric_billing_system\Electric_billing_system\obj\Debug\Electric_billing_system.CreateBill.resources
 C:\Users\Mohamed\source\repos\Electric_billing_system\Electric_billing_system\obj\Debug\Electric_billing_system.Admin.Bills.BillsMenu.resources
+C:\Users\Mohamed\source\repos\Electric_billing_system\Electric_billing_system\obj\Debug\Electric_billing_system.Admin.ViewSystemlog.resources
+C:\Users\Mohamed\source\repos\Electric_billing_system\Electric_billing_system\obj\Debug\Electric_billing_system.Manage_customers.resources
+C:\Users\Mohamed\source\repos\Electric_billing_system\Electric_billing_system\obj\Debug\Electric_billing_system.csproj.AssemblyReference.cache
+C:\Users\Mohamed\source\repos\Electric_billing_system\Electric_billing_system\obj\Debug\Electric_billing_system.CustomerEdit.resources
+C:\Users\Mohamed\source\repos\Electric_billing_system\Electric_billing_system\obj\Debug\Electric_billing_system.MeterEdit.resources
+C:\Users\Mohamed\source\repos\Electric_billing_system\Electric_billing_system\obj\Debug\Electric_billing_system.Pay_Bill.resources
+C:\Users\Mohamed\source\repos\Electric_billing_system\Electric_billing_system\obj\Debug\Electric_billing_system.credit.resources

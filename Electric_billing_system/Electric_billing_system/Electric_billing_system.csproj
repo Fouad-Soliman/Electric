@@ -102,17 +102,59 @@
     <Compile Include="Admin\PowerHouse\AddPH.designer.cs">
       <DependentUpon>AddPH.cs</DependentUpon>
     </Compile>
-    <Compile Include="Admin\PowerHouse\ManagePH.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Admin\PowerHouse\ManagePH.Designer.cs">
-      <DependentUpon>ManagePH.cs</DependentUpon>
-    </Compile>
     <Compile Include="Admin\PowerHouse\ViewPH.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Admin\PowerHouse\ViewPH.designer.cs">
       <DependentUpon>ViewPH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ViewSystemlog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\ViewSystemlog.Designer.cs">
+      <DependentUpon>ViewSystemlog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\PowerHouse\ManagePH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\PowerHouse\ManagePH.designer.cs">
+      <DependentUpon>ManagePH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Edit Customer\ManageCustomers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Edit Customer\ManageCustomers.designer.cs">
+      <DependentUpon>ManageCustomers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Edit Customer\CutomerEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Edit Customer\CutomerEdit.designer.cs">
+      <DependentUpon>CutomerEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Edit Customer\MetersEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Edit Customer\MetersEdit.designer.cs">
+      <DependentUpon>MetersEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\Functions\PayBill\credit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\Functions\PayBill\credit.designer.cs">
+      <DependentUpon>credit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\Functions\PayBill\Pay_Bill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\Functions\PayBill\Pay_Bill.designer.cs">
+      <DependentUpon>Pay_Bill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SYSTEM_LOG_REPORT.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SYSTEM_LOG_REPORT.rpt</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="Customer\Customer_Login.cs">
       <SubType>Form</SubType>
@@ -144,6 +186,12 @@
     <Compile Include="Admin\Bills\CreateBill.designer.cs">
       <DependentUpon>CreateBill.cs</DependentUpon>
     </Compile>
+    <Compile Include="Customer\Functions\MeterBillsCrystal.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MeterBillsCrystal.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Welcome_Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -170,11 +218,33 @@
     <EmbeddedResource Include="Admin\PowerHouse\AddPH.resx">
       <DependentUpon>AddPH.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Admin\PowerHouse\ViewPH.resx">
+      <DependentUpon>ViewPH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\ViewSystemlog.resx">
+      <DependentUpon>ViewSystemlog.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Admin\PowerHouse\ManagePH.resx">
       <DependentUpon>ManagePH.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Admin\PowerHouse\ViewPH.resx">
-      <DependentUpon>ViewPH.cs</DependentUpon>
+    <EmbeddedResource Include="Admin\Edit Customer\ManageCustomers.resx">
+      <DependentUpon>ManageCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Edit Customer\CutomerEdit.resx">
+      <DependentUpon>CutomerEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Edit Customer\MetersEdit.resx">
+      <DependentUpon>MetersEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Functions\PayBill\credit.resx">
+      <DependentUpon>credit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Functions\PayBill\Pay_Bill.resx">
+      <DependentUpon>Pay_Bill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\SYSTEM_LOG_REPORT.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SYSTEM_LOG_REPORT.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Customer\Customer_Login.resx">
       <DependentUpon>Customer_Login.cs</DependentUpon>
@@ -190,6 +260,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Admin\Bills\CreateBill.resx">
       <DependentUpon>CreateBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Functions\MeterBillsCrystal.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MeterBillsCrystal.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Welcome_Form.resx">
       <DependentUpon>Welcome_Form.cs</DependentUpon>
@@ -220,8 +294,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Admin\Edit Customer\" />
     <Folder Include="System\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
