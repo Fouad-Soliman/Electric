@@ -52,7 +52,7 @@ namespace Electric_billing_system
             this.Welcome_label.AutoSize = true;
             this.Welcome_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Welcome_label.ForeColor = System.Drawing.Color.White;
-            this.Welcome_label.Location = new System.Drawing.Point(12, 19);
+            this.Welcome_label.Location = new System.Drawing.Point(10, 19);
             this.Welcome_label.Name = "Welcome_label";
             this.Welcome_label.Size = new System.Drawing.Size(265, 39);
             this.Welcome_label.TabIndex = 1;
@@ -61,9 +61,9 @@ namespace Electric_billing_system
             // Edit_Customer_Pic
             // 
             this.Edit_Customer_Pic.Image = ((System.Drawing.Image)(resources.GetObject("Edit_Customer_Pic.Image")));
-            this.Edit_Customer_Pic.Location = new System.Drawing.Point(117, 104);
+            this.Edit_Customer_Pic.Location = new System.Drawing.Point(102, 104);
             this.Edit_Customer_Pic.Name = "Edit_Customer_Pic";
-            this.Edit_Customer_Pic.Size = new System.Drawing.Size(89, 92);
+            this.Edit_Customer_Pic.Size = new System.Drawing.Size(78, 92);
             this.Edit_Customer_Pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Edit_Customer_Pic.TabIndex = 2;
             this.Edit_Customer_Pic.TabStop = false;
@@ -72,9 +72,9 @@ namespace Electric_billing_system
             // Mange_pHBtn
             // 
             this.Mange_pHBtn.Image = ((System.Drawing.Image)(resources.GetObject("Mange_pHBtn.Image")));
-            this.Mange_pHBtn.Location = new System.Drawing.Point(117, 230);
+            this.Mange_pHBtn.Location = new System.Drawing.Point(102, 230);
             this.Mange_pHBtn.Name = "Mange_pHBtn";
-            this.Mange_pHBtn.Size = new System.Drawing.Size(89, 92);
+            this.Mange_pHBtn.Size = new System.Drawing.Size(78, 92);
             this.Mange_pHBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Mange_pHBtn.TabIndex = 3;
             this.Mange_pHBtn.TabStop = false;
@@ -83,9 +83,9 @@ namespace Electric_billing_system
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(413, 104);
+            this.pictureBox2.Location = new System.Drawing.Point(361, 104);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(89, 92);
+            this.pictureBox2.Size = new System.Drawing.Size(78, 92);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
@@ -93,9 +93,9 @@ namespace Electric_billing_system
             // ManageBills_btn
             // 
             this.ManageBills_btn.Image = ((System.Drawing.Image)(resources.GetObject("ManageBills_btn.Image")));
-            this.ManageBills_btn.Location = new System.Drawing.Point(413, 230);
+            this.ManageBills_btn.Location = new System.Drawing.Point(361, 230);
             this.ManageBills_btn.Name = "ManageBills_btn";
-            this.ManageBills_btn.Size = new System.Drawing.Size(89, 92);
+            this.ManageBills_btn.Size = new System.Drawing.Size(78, 92);
             this.ManageBills_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.ManageBills_btn.TabIndex = 5;
             this.ManageBills_btn.TabStop = false;
@@ -104,9 +104,9 @@ namespace Electric_billing_system
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(548, 19);
+            this.pictureBox4.Location = new System.Drawing.Point(480, 19);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(61, 66);
+            this.pictureBox4.Size = new System.Drawing.Size(53, 66);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 6;
             this.pictureBox4.TabStop = false;
@@ -116,7 +116,7 @@ namespace Electric_billing_system
             this.Edit_Customers.AutoSize = true;
             this.Edit_Customers.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Edit_Customers.ForeColor = System.Drawing.Color.White;
-            this.Edit_Customers.Location = new System.Drawing.Point(212, 115);
+            this.Edit_Customers.Location = new System.Drawing.Point(186, 115);
             this.Edit_Customers.Name = "Edit_Customers";
             this.Edit_Customers.Size = new System.Drawing.Size(187, 58);
             this.Edit_Customers.TabIndex = 26;
@@ -128,7 +128,7 @@ namespace Electric_billing_system
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(212, 249);
+            this.label1.Location = new System.Drawing.Point(186, 249);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(166, 58);
             this.label1.TabIndex = 27;
@@ -140,7 +140,7 @@ namespace Electric_billing_system
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(508, 115);
+            this.label2.Location = new System.Drawing.Point(444, 115);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(148, 58);
             this.label2.TabIndex = 28;
@@ -151,7 +151,7 @@ namespace Electric_billing_system
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(508, 271);
+            this.label3.Location = new System.Drawing.Point(444, 271);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(159, 29);
             this.label3.TabIndex = 29;
@@ -159,10 +159,10 @@ namespace Electric_billing_system
             // 
             // Admin_Menu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(700, 450);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -176,6 +176,7 @@ namespace Electric_billing_system
             this.Name = "Admin_Menu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Admin_Menu";
+            this.Load += new System.EventHandler(this.Admin_Menu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Edit_Customer_Pic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Mange_pHBtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

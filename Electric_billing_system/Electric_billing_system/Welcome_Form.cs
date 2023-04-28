@@ -15,15 +15,15 @@ namespace Electric_billing_system
         public Welcome_Form()
         {
             InitializeComponent();
+            SetStyle(ControlStyles.SupportsTransparentBackColor, true);
+    
         }
-
         private void Customer_pic_Click(object sender, EventArgs e)
         {
             this.Hide();
             Login_Form customer_Login = new Login_Form();
             customer_Login.ShowDialog();
             this.Show();
-
         }
 
         private void Customer_label_Click(object sender, EventArgs e)
