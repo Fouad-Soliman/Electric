@@ -51,7 +51,7 @@ namespace Electric_billing_system
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //Form2 f2 = new Form2();
+            //CustomerEdit f2 = new CustomerEdit();
             //f2.ShowDialog();
         }
     }

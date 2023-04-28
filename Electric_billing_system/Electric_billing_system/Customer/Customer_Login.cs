@@ -127,8 +127,8 @@ namespace Electric_billing_system
         private void Register_Link_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             this.Hide();
-            registration_form form2 = new registration_form();
-            form2.Show();
+            registration_form CustomerEdit = new registration_form();
+            CustomerEdit.Show();
         }
         bool CameFrom_ChangePass=false;
         private void label1_Click(object sender, EventArgs e)

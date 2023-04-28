@@ -40,7 +40,7 @@ namespace Electric_billing_system
 
         private void addbut_Click(object sender, EventArgs e)
         {
-            AddPH addf = new AddPH();
+            Electric_billing_system.AddPH addf = new Electric_billing_system.AddPH();
            
             addf.ShowDialog();
             cmbph.Items.Add(addf.Powerhousename);
@@ -53,7 +53,7 @@ namespace Electric_billing_system
 
         }
 
-        
+      
 
         private void delbut_Click(object sender, EventArgs e)
         {
@@ -88,7 +88,7 @@ namespace Electric_billing_system
             if (cmbph.Text != "Select PowerHouse")
             {
                 string selectedphName = cmbph.SelectedItem.ToString();
-                ViewPH viewf = new ViewPH(selectedphName);
+                Electric_billing_system.ViewPH viewf = new Electric_billing_system.ViewPH(selectedphName);
                 viewf.Show();
             }
             else

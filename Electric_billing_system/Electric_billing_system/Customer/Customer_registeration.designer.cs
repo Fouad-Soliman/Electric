@@ -228,7 +228,7 @@
             this.Controls.Add(this.registeredEmail_textbox);
             this.Controls.Add(this.registeredFirstName_textbox);
             this.Name = "registration_form";
-            this.Text = "Form2";
+            this.Text = "CustomerEdit";
             this.ResumeLayout(false);
             this.PerformLayout();
 
