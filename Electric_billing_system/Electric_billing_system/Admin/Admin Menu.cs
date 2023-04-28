@@ -38,5 +38,10 @@ namespace Electric_billing_system
             this.Show();
 
         }
+
+        private void Admin_Menu_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
